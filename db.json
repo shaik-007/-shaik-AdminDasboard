@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Formal shirt",
+      "categoryId": 1,
+      "description": "description First goes here",
+      "quantity": 1,
+      "price": 300,
+      "is_available": true,
+      "image": "../../../assets/images/s1.jpeg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 2,
+      "productName": "Formal shirt",
+      "categoryId": 1,
+      "description": "description Second goes here",
+      "quantity": 1,
+      "price": 300,
+      "is_available": true,
+      "image": "../../../assets/images/s2.jpeg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 3,
+      "productName": "Party wear shirt",
+      "categoryId": 2,
+      "description": "description third goes here",
+      "quantity": 1,
+      "price": 300,
+      "is_available": true,
+      "image": "../../../assets/images/s3-f.jpeg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 4,
+      "productName": "Party wear shirt",
+      "categoryId": 5,
+      "description": "description third goes here",
+      "quantity": 1,
+      "price": 300,
+      "is_available": true,
+      "image": "../../../assets/images/s4-f.jpeg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 5,
+      "productName": "Casual shirt",
+      "categoryId": 7,
+      "description": "description third goes here",
+      "quantity": 1,
+      "price": 300,
+      "is_available": true,
+      "image": "../../../assets/images/s5-f.jpeg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "productName": "apple",
+      "description": "description",
+      "quantity": 1,
+      "price": 112,
+      "image": "C:\\fakepath\\s3-f.jpeg",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

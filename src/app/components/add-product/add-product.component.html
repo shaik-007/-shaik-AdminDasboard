@@ -1,0 +1,46 @@
+
+<div class="title">
+  <h1 mat-dialog-title [align]="'center'" > Add Product</h1>
+</div>
+<mat-dialog-content>
+  <form [formGroup]="productForm">
+    <mat-form-field appearance="outline">
+      <mat-label>Product Name</mat-label>
+      <input formControlName="productName" matInput placeholder="Name">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Description</mat-label>
+      <input formControlName="description" matInput placeholder="Description">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Quanity</mat-label>
+      <input type="number" formControlName="quantity" matInput placeholder="Quantity">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Price</mat-label>
+      <input type="number" formControlName="price" matInput placeholder="Price">
+    </mat-form-field>
+    <mat-card>
+      <img [src]="imageUrl" alt="" style="width:250px; height:250px">
+      <mat-card-content>
+        <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</span>
+      </mat-card-content>
+      <mat-card-actions>
+        <input type="file" formControlName="image" (change)="onSelectFile($event)" placeholder="choosefile">
+      </mat-card-actions>
+  </mat-card>
+  <br>
+
+
+    
+
+  </form>
+
+</mat-dialog-content>
+<mat-dialog-actions [align]="'center'">
+  <button mat-raised-button color="primary" (click)="addProduct()" [disabled]="productForm.invalid"> Add Product </button>
+
+</mat-dialog-actions>

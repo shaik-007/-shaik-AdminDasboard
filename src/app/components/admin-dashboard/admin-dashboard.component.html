@@ -1,0 +1,42 @@
+<div>
+    <app-area-widgets></app-area-widgets>
+</div>
+<br>
+<mat-divider></mat-divider>
+<br>
+
+<div class="content">
+            <div fxLayout="row wrap" fxLayoutGap="16px grid" fxFlexAlign="space-between center" class="stats-cards"> 
+                    <div fxFlex="25%">
+                <mat-card class="example-card">
+                    <mat-card-content>
+                       <app-card-widget label="New users" total="12k" percentage="50"></app-card-widget>
+                    </mat-card-content>  
+                </mat-card>
+                <mat-card class="example-card">
+                    <mat-card-content>
+                        <app-card-widget label="Users retention" total="10k" percentage="40"></app-card-widget>
+                    </mat-card-content>  
+                </mat-card>
+                <mat-card class="example-card">
+                    <mat-card-content>
+                        <app-card-widget label="Users engagement" total="8k" percentage="30"></app-card-widget>
+                    </mat-card-content>  
+                </mat-card>
+                <mat-card class="example-card">
+                    <mat-card-content>
+                        <app-card-widget label="Referral" total="6k" percentage="20"></app-card-widget>
+                    </mat-card-content>  
+                </mat-card>
+            </div>
+        </div>
+</div>
+
+<mat-divider></mat-divider>
+
+<div fxLayout="row wrap" fxLayoutGap="16px grid" fxFlexAlign="space-between center">
+    <!-- <div>Table</div> -->
+    <div fxFlex="60%">
+        <app-pie-widget></app-pie-widget>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+.content{
+    margin: 0 0 0 60px;
+    justify-content: center;
+   
+}
+
+.example-card{
+    display: inline-block;
+    position: relative;
+    padding: 16px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 300px;
+    margin-right: 20px;
+    
+}
