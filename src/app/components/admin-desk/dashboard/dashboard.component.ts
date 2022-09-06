@@ -36,6 +36,18 @@ export class DashboardComponent implements OnInit {
       console.log("iam in delete method",dlt);
     });
 
+  };
+
+  editProduct(id:any){
+    this.dialog.open(AddProductComponent,{
+      width:'40%',
+      data:id
+    }).afterClosed().subscribe(val=>{
+      if(val===id){
+        this.productsList 
+        
+      }
+    })
   }
 
 }

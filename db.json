@@ -71,12 +71,40 @@
       "waranty": 1
     },
     {
+      "id": 6,
+      "productName": "Ladies Party wear ",
+      "categoryId": 7,
+      "description": "description third goes here",
+      "quantity": 1,
+      "price": 12,
+      "is_available": true,
+      "image": "../../../assets/images/ladies-dresses-2.jpeg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
+      "id": 7,
+      "productName": "Ladies Party wear ",
+      "categoryId": 7,
+      "description": "description third goes here",
+      "quantity": 1,
+      "price": 11,
+      "is_available": true,
+      "image": "../../../assets/images/Ladies-dresses-1.jpeg",
+      "rating": 4,
+      "review": 150,
+      "vendor_name": "abc shop",
+      "waranty": 1
+    },
+    {
       "productName": "apple",
       "description": "description",
       "quantity": 1,
       "price": 112,
       "image": "C:\\fakepath\\s3-f.jpeg",
-      "id": 6
+      "id": 8
     }
   ],
   "comments": [
