@@ -1,6 +1,6 @@
 
 <div class="title">
-  <h1 mat-dialog-title [align]="'center'" > Add Product</h1>
+  <h1 mat-dialog-title [align]="'center'" > {{changeTitle}}</h1>
 </div>
 <mat-dialog-content>
   <form [formGroup]="productForm">
@@ -41,6 +41,6 @@
 
 </mat-dialog-content>
 <mat-dialog-actions [align]="'center'">
-  <button mat-raised-button color="primary" (click)="addProduct()" [disabled]="productForm.invalid"> Add Product </button>
+  <button mat-raised-button color="primary" (click)="addProduct()" [disabled]="productForm.invalid"> {{actionButton}} </button>
 
 </mat-dialog-actions>

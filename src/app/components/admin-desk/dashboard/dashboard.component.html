@@ -52,7 +52,10 @@
                         <td>{{item.quantity}}</td>
                         <td>
                             <button mat-icon-button >
-                                <mat-icon (click)="deleteProduct(item.id)">delete</mat-icon>
+                                <mat-icon color="warn" (click)="deleteProduct(item.id)">delete</mat-icon>
+                            </button>
+                            <button mat-icon-button >
+                                <mat-icon color="primary" (click)="editProduct(item.id)">edit</mat-icon>
                             </button>
                         </td>
                         <td>
